@@ -1,0 +1,123 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+   /* background-image: url(img/Sprinkle.svg); */
+}
+
+#overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#mainImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+    transform: translateX();
+    animation: float 1s ease-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: rotate(0deg);
+    }
+    12%{     
+        transform: rotate(-5deg);
+    }
+    25%{     
+        transform: rotate(5deg);
+    }
+    37%{     
+        transform: rotate(-5deg);
+    }
+    50%{     
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: none;
+}
+
+
+
+/*
+.titulo {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    position: absolute;
+    top: 100%; 
+    animation: moveUp 5s ease-in-out forwards;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+    
+    @keyframes moveUp {
+        0% {
+            top: 50%; 
+            opacity: 1
+        }
+        100% {
+            top: 5%; 
+            opacity: 1;
+        }
+    }
+*/
+.carta {
+    display: none;
+}
+
+.carta2{
+    font-size: 13px;
+    margin-top: 25%;
+    padding: 20px;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+
+.carta2 img{
+    width: 30px;
+    height: 30px;
+    transform: translateX();
+    animation: flotante 0.5s ease-out infinite;
+}
+
+@keyframes flotante{
+    0%{
+        transform: translateX(0px);
+    }
+    16%{
+        transform: translateX(3px);
+    }
+    32%{
+        transform: translateY(-5px);
+    }
+    48%{
+        transform: translateX(-5px);
+    }
+    64%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

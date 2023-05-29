@@ -1,0 +1,208 @@
+body{
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont{
+    align-items: center;
+    margin-right: 4px
+} 
+
+.ig {
+    width: 100px;
+}
+
+.cora{
+    width: 27px;
+}
+
+.chat{
+    width: 29px;
+}
+
+.container{
+  max-width: 100%;
+  height: 100px;
+
+  overflow-x: auto;
+  display: flex;
+  /* Se oculta el scroll pero queda inutilizado para hacer scroll */
+  overflow: hidden
+
+}
+
+.slide {
+  display: inline-block;
+  padding: 1px;
+  /* overflow: hidden; */
+  flex-direction: column;
+  /* align-items: center; */
+
+}
+.history{
+    background: linear-gradient(
+      45deg,
+      rgba(247, 208, 10, 1) 0%,
+      rgba(252, 10, 14, 1) 48%,
+      rgba(252, 8, 118, 1) 100%
+    );
+    background-blend-mode: normal;
+    display: inline-flex;
+    position: relative;
+
+    width: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    height: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    /* overflow: hidden; */
+    border-radius: 50%;
+    padding: 2px;
+    margin: 4px;
+    flex: 0 0 auto;
+
+  }
+
+  .history-perfil{
+    background-color: #787373;
+    background-blend-mode: normal;
+    display: inline-flex;
+    position: relative;
+
+    width: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    height: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    /* overflow: hidden; */
+    border-radius: 50%;
+    padding: 0px;
+    margin: 6px;
+    flex: 0 0 auto;
+
+  }
+
+.perfil{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    border: solid 4px;
+}
+
+
+.user{
+  color:#ffffff;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  font-size: 11px;
+}
+
+.user-perfil{
+  color:#787373;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  font-size: 11px;
+}
+
+.banner{
+  max-width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.banner img{
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 50%;
+  border: solid 4px;
+}
+
+.banner p{
+  color: #ffffff;
+  font-size: 15px;
+}
+
+#puntos{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 0;
+}
+
+.publicacion{
+  max-width: 100%;
+  height: auto;
+}
+
+.iconos-publicacion{
+  display: flex;
+  margin: 5px;
+}
+
+.iconos-publcacion img{
+  padding: 20px;
+}
+
+.derecha{
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.descripcion p{
+  color: #ffffff;
+  margin: 10px;
+  font-size: 13px;
+  line-height: 14px;
+}
+  #tiempo{
+    font-size: 10px;
+    color: #787373;
+  }
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 6px;
+}
+
+.iconos-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0; /* Evita que los iconos se reduzcan */
+  max-width: 290px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Centra los iconos horizontalmente */
+}
+
+.iconos-footer img{
+  width: 23px;
+  height: 23px;
+}
+
+.perfil-footer{
+  display: block;  
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.relleno{
+  margin: 15px;
+}
+.resaltado{
+  font-weight: 500;
+}
+
+H2{
+  color: pink;
+  text-align: center;
+}
