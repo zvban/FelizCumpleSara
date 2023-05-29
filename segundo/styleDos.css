@@ -56,8 +56,8 @@ body{
     display: inline-flex;
     position: relative;
 
-    width: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
-    height: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    width: 70px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    height: 70px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
     /* overflow: hidden; */
     border-radius: 50%;
     padding: 2px;
@@ -72,8 +72,8 @@ body{
     display: inline-flex;
     position: relative;
 
-    width: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
-    height: 65px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    width: 70px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
+    height: 70px; /* Ajusta el tamaño de la imagen circular según tus necesidades */
     /* overflow: hidden; */
     border-radius: 50%;
     padding: 0px;
@@ -186,6 +186,7 @@ footer{
 .iconos-footer img{
   width: 23px;
   height: 23px;
+  margin: 5px;
 }
 
 .perfil-footer{
