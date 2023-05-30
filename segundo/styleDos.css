@@ -201,7 +201,14 @@ footer{
   margin: 15px;
 }
 .resaltado{
-  font-weight: 500;
+  font-weight: 900;
+}
+
+.youtube{
+  width: 200px;
+  margin: 10px;
+  margin-left: 10px;
+  display: block;
 }
 
 H2{
