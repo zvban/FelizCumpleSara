@@ -1,3 +1,7 @@
+* img{
+  touch-action: none;
+}
+
 body{
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
@@ -11,19 +15,20 @@ body{
 
 .cont{
     align-items: center;
-    margin-right: 4px
+    margin-right: 5px
 } 
 
 .ig {
-    width: 100px;
+    width: 110px;
+    margin: 5px;
 }
 
 .cora{
-    width: 27px;
+    width: 30px;
 }
 
 .chat{
-    width: 29px;
+    width: 32px;
 }
 
 .container{
@@ -115,8 +120,8 @@ body{
 }
 
 .banner img{
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin: 5px;
   border-radius: 50%;
   border: solid 4px;
