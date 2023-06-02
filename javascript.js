@@ -53,7 +53,7 @@ function mostrarCarta() {
 
   // Crear la animación utilizando los keyframes
   var animation = carta.animate(keyframes, {
-    duration: 45000, // Duración de la animación en milisegundos
+    duration: 60000, // Duración de la animación en milisegundos
     iterations: 1, // Número de repeticiones (1 para una sola vez)
     easing: 'ease-in-out' // Tipo de aceleración de la animación
   });
@@ -63,6 +63,10 @@ function mostrarCarta() {
 
 }
 
+function reproducirMusica() {
+  var audio = document.getElementById('myAudio');
+  audio.play();
+}
 
 // Overlay principal Regalo //
 window.onload = function() {
@@ -79,12 +83,12 @@ window.onload = function() {
       
         animacionTitulo();
         mostrarCarta();
+        reproducirMusica();
 
       }, 1000); // Ajusta el tiempo de espera (en milisegundos) según tus necesidades
     });
   };
   
-
   
   
   
